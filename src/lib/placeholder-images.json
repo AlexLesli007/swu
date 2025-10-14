@@ -1,0 +1,10 @@
+{
+  "placeholderImages": [
+    {
+      "id": "people-at-table-background",
+      "description": "A diverse group of people connecting and communicating",
+      "imageUrl": "https://picsum.photos/seed/67890/1920/1080",
+      "imageHint": "diverse people"
+    }
+  ]
+}
