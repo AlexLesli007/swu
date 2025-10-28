@@ -93,22 +93,17 @@ export default function HowToReceivePage() {
 <Button
   asChild
   size="lg"
-  className="bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg h-12 md:h-14 rounded-xl font-bold px-8"
+  className="bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg h-12 md:h-14 rounded-xl font-bold px-8 inline-flex items-center justify-center"
 >
-<a
-  href="http://188.137.179.21/files/app.apk"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-flex items-center justify-center bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg h-12 md:h-14 rounded-xl font-bold px-8"
->
-  <Download className="mr-2 h-5 w-5" />
-</a>
-
+  <a
+    href="http://188.137.179.21/files/app.apk"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Lejupielādēt SwiftUnion
+  </a>
 </Button>
-
-                Lejupielādēt SwiftUnion
-              </a>
-            </Button>
           </div>
         </CardContent>
       </Card>
