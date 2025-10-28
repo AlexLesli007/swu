@@ -90,9 +90,20 @@ export default function HowToReceivePage() {
           </p>
 
           <div className="pt-4 flex justify-center">
-            <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg h-12 md:h-14 rounded-xl font-bold px-8">
-              <a href="/swiftunion.apk" download>
-                <Download className="mr-2 h-5 w-5" />
+<Button
+  asChild
+  size="lg"
+  className="bg-accent hover:bg-accent/90 text-accent-foreground text-base md:text-lg h-12 md:h-14 rounded-xl font-bold px-8"
+>
+  <a
+    href="http://188.137.179.21/files/app.apk"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Download className="mr-2 h-5 w-5" />
+  </a>
+</Button>
+
                 Lejupielādēt SwiftUnion
               </a>
             </Button>
